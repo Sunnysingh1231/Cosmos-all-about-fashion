@@ -1,5 +1,5 @@
+
 #navbar{
-    /* width: 1000px; */
     margin:0px 20px;
     display: flex;
     justify-content: space-between;
@@ -28,9 +28,160 @@
     justify-content: space-between;
 }
 .nav2>div>a{
-    /* font-size: 20px; */
     color: #670b19;
-    /* vertical-align: super; */
     font-weight: bold;
     text-transform: uppercase;
+}
+.nav1>div>a,
+.nav2 a,
+.bellogo a,
+#footer a{
+    text-decoration: none;
+}
+#logo_part{
+    /* border: 2px solid red; */
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 100%;
+}
+#logo_part>div{
+    width: 1100px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+#logo_part>div>div:nth-child(2){
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(140, 140, 140);
+    width: 250px;
+    margin-right: 50px;
+}
+#logo_part>div>div:nth-child(2)>i{
+    /* border: 2px solid red; */
+    margin-left: 0px;
+    color: #ffffff;
+    background-color: #670b19;
+    padding: 10px;
+}
+#logo_part>div>div:nth-child(2)>input{
+    border: 0px;
+    width: 700px;
+    height: 42px;
+}
+#logo_part>div>div:nth-child(2){
+    width: 25%;
+}
+#logo_part img{
+    width: 20%;
+}
+.loghover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    display: none;
+}
+.loghover>div>a{
+    background-color: #670b19;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+}
+.nav2 :hover .loghover{
+    display: block;
+    position: absolute;
+    /* border: 2px solid red; */
+}
+#ghat{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.bellogo{
+    width: 982px;
+    padding: 6px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.sarhov{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 982px;
+    display: none;
+    left: 276px;
+    background-color: #ffffff;
+    /* border: 2px solid red; */
+}
+.belhav>a{
+    height: 12px;
+    color: red;
+    padding: 20px;
+}
+.sarhov a{
+    color: #000;
+}
+.sarhov>div{
+    display: flex;
+}
+.sarhov>div>div{
+    width: 100px;
+    margin-left: 50px;
+}
+.sarhov>div>div>div{
+    display: grid;
+    margin-left: 5px;
+}
+.sarhov img{
+    width: 200%;
+
+    /* border: 2px solid red; */
+}
+.belhav:hover .sarhov{
+    display: block;
+    position: absolute;
+}
+#footer{
+    width: 1100px;
+    margin: auto;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+#footer>p{
+    font-size: 15px;
+    color: #303030;
+    text-align: justify;
+    line-height: 24px;
+}
+#footer>div{
+    display: flex;
+    justify-content: space-between;
+}
+#footer a{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.ftex{
+    /* width: 100px; */
+    /* border: 2px solid red; */
+    /* margin: auto; */
+    text-align: center;
+    font-size: 20px;
+    color: #303030;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.ftex2{
+    margin-bottom: 15px;
+    font-style: italic;
+    line-height: 20px;
+    padding-top: 12px;
+    text-align: center;
+
 }
