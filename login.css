@@ -1,0 +1,133 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#cont{
+    /* width: 1440px; */
+    width: 600px;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    /* border: 2px solid red; */
+    /* background-color: #dadada; */
+}
+/* #cont>div:nth-child(1){
+    width: 731px;
+    height: 900px;
+    background-color: #ECBC76;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#cont>div:nth-child(2){
+    background-color: rgb(234, 234, 234);
+}
+.incont{
+    width: 556px;
+    padding-bottom: 50px;
+    margin: 20px 68px 78px 0px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 45px;
+    padding-top: 58px;
+    background-color: white;
+}
+#cont>div:nth-child(2)>div>p:nth-child(1){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.incont>p:nth-child(2){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+    margin: 0px;
+
+}
+.incont>p:nth-child(3){
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+ input{
+    width: 465px;
+    background: #FFFFFF;
+    border: 1px solid #4285F4;
+    border-radius: 9px;
+    padding: 25px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+} 
+.incont>p:nth-child(5){
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.incont>p:nth-child(7){
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #ad3113;
+margin-top: 16px;
+text-align: right;
+margin-right: 50px;
+}
+button{
+    width: 515px;
+height: 54.22px;
+left: 861.39px;
+top: 571.99px;
+border: 0px;
+background: #E48700;
+box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+border-radius: 10px;
+color: white;
+}
+button+p{
+    margin-top: 11px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    color: #8D8D8D;
+    margin-right: 50px;
+
+}
+button+p>span{
+    margin-top: 11px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    color: #B87514;
+}
+.incont>p:nth-child(10){
+    text-align: center;
+    color: #B5B5B5;
+}
+.incont>div{
+  display: flex;
+  justify-content: center;  
+}
+.incont>div:nth-child(1){
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 100px;
+}
+#cont a{
+    text-decoration: none;
+    color: black;
+}
+#cont button a{
+    color: #fff;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+#cont button a:hover{
+    font-size: 25px;
+}
