@@ -26,4 +26,3 @@ signup.addEventListener("click",element=>{
     }
 
 })
-

@@ -11,6 +11,8 @@ function displayData(data){
             if(email.value===element.inemail&&password.value===element.password){
                 alert("login successful")
                 window.location.href="./index.html"
+            }else{
+                alert("Somthing went wrong")
             }
         })
     });
