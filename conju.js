@@ -41,3 +41,5 @@ function displaydata(data){
         Dibagcont.append(Container)
     });
 }
+let Cost=document.getElementById("cost")
+Cost.innerText=null
