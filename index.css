@@ -3,43 +3,34 @@
 #snavebar{
     width: 1100px;
     margin: 10px auto ;
-    /* border: 2px solid red; */
 }
 
 .navbar{
-    /* margin:0px 20px; */
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid red; */
 }
 .nav1{
     display: flex;
-    /* border: 2px solid red; */
     width: 650px;
 }
 .nav1> .havnav1{
     width: 100%;
     height: 20px;
-    /* align-items: center; */
     text-align: center;
     border: 1px solid #64323a;
     border-left: 1px;
     border-bottom: 0px;
     border-top: 0px;
-    /* border: 2px solid red; */
-    /* padding: 5px; */
 }
 .nav1>div>a{
     font-size: 15px;
     color: #a14b58;
     margin: 1px;
-    /* border: 2px solid red; */
     padding: 2px 3px;
     transition: color 0.1s linear;
     transition: font-size 0.1s linear;
 }
 .havnav1 :hover{
-    /* border: 1px solid red; */
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     font-size: 17px;
@@ -64,7 +55,6 @@
 }
 .nav2>div>a{
     color: #670b19;
-    /* font-weight: bold; */
     text-transform: uppercase;
     padding: 2px 3px;
     transition: color 0.1s linear;
@@ -85,14 +75,12 @@
     text-decoration: none;
 }
 #logo_part{
-    /* border: 2px solid red; */
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     width: 100%;
 }
 #logo_part>div{
     width: 1100px;
-    /* border: 2px solid red; */
     margin: auto;
     display: flex;
     align-items: center;
@@ -106,7 +94,6 @@
     margin-right: 50px;
 }
 #logo_part>div>div:nth-child(2)>i{
-    /* border: 2px solid red; */
     margin-left: 0px;
     color: #ffffff;
     background-color: #670b19;
@@ -132,9 +119,6 @@
     background-color: #ffffff;
     display: none;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-    /* border: 2px solid red; */
-    /* transition: background-color 0.5s linear; */
 }
 .loginhovvvv>a{
     background-color: #670b19;
@@ -148,39 +132,19 @@
 .loginhovvvv>a:hover{
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    /* font-size: 17px; */
     color: #5a111c;
     background-color: #fff;
-    /* position: absolute; */
 }
-
-/* .loginhov a{
-    color: white;
-    padding: 5px 10px;
-    margin: 10px;
-} */
 .nav2 :hover .loghover{
     display: block;
     position: absolute;
     transition: display 0.5s linear;
-    /* background-color: #000; */
-    /* border: 2px solid red; */
-    /* color: #fff; */
-    /* background-color: #c0bdbd; */
     transition: color 0.5s linear;
-
-    
-    
 }
-
-/* #peopro{
-    color: #959595;
-} */
 
 #peopro :hover{
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    /* font-size: 17px; */
     color: #5a111c;
 }
 /*----------------------------------------*/
@@ -195,7 +159,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border: 2px solid red; */
 }
 .sarhov{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -206,22 +169,26 @@
     /* border: 2px solid red; */
 }
 .sarhov>div>div{
-    /* border: 2px solid red; */
-    /* justify-content: space-between; */
     margin: 0px auto ;
 }
 .belhav>a{
     height: 12px;
-    /* color: red; */
     padding: 20px;
+}
+.abv{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
 .sarhov a{
     color: #606060;
+    transition: .5s;
 }
 .sarhov a:hover{
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    border: 1px solid rgb(172, 23, 23);
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid rgb(172, 23, 23); */
+    border-radius: 3px;
+    color: #000;
+    font-weight: bold;
 }
 .sarhov>div{
     display: flex;
@@ -229,7 +196,6 @@
 .sarhov>div>div{
     width: 120px;
     justify-content: space-between;
-    /* margin-left: 50px; */
 }
 .sarhov>div>div>div{
     display: grid;
@@ -237,8 +203,6 @@
 }
 .sarhov img{
     width: 200%;
-
-    /* border: 2px solid red; */
 }
 .belhav:hover .sarhov{
     display: block;
@@ -252,8 +216,13 @@
     grid-template-columns: repeat(3,1fr);
     /* border: 2px solid red; */
 }
+#title_box>div{
+    margin-top: 5px;
+}
 #title_box>div>img{
     width: 100%;
+    top: 0px;
+    margin-top: -4px;
     
 }
 #fotimg{
@@ -271,13 +240,8 @@
 #fotimg img{
     width: 100%;
     margin: 10px;
-    /* border-radius: 10px; */
-    /* border: 2px solid red; */
 }
 #fotimg img:hover{
-    /* width: 110%; */
-    /* position: absolute; */
-    /* display: block; */
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -304,9 +268,6 @@
     color: #000;
 }
 .ftex{
-    /* width: 100px; */
-    /* border: 2px solid red; */
-    /* margin: auto; */
     text-align: center;
     font-size: 20px;
     color: #303030;
@@ -327,7 +288,6 @@
     
 }
 #fotinp>input{
-    /* padding: 2px; */
     border: 1px solid #959595;
     width: 100%;
     padding-left: 30px;
@@ -343,8 +303,6 @@
     padding: 20px;
     border: 1px solid #959595;
     width: 100%;
-    /* max-width: 380px; */
-    /* height: 60px; */
     font-style: italic;
     outline: none;
     margin-left: 0px;

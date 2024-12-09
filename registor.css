@@ -4,22 +4,12 @@ body{
     padding: 0;
 }
 #cont{
-    /* width: 1440px; */
     width: 600px;
     height: 900px;
     margin: auto;
     display: flex;
-    /* border: 2px solid red; */
-    /* background-color: #dadada; */
 }
-/* #cont>div:nth-child(1){
-    width: 731px;
-    height: 900px;
-    background-color: #ECBC76;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 #cont>div:nth-child(2){
     background-color: rgb(234, 234, 234);
 }

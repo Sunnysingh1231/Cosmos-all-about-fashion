@@ -3,24 +3,20 @@
     width: 1000px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    /* margin-top: 50px; */
     background-color: rgb(224, 224, 224);
     display: flex;
 }
 #ueygrcyueg>div:nth-child(1){
     width: 50%;
-    /* border: 2px solid red; */
 
 }
 #ueygrcyueg>div:nth-child(2){
     /* border: 2px solid red; */
     width: 50%;
     margin: 30px;
-    /* display: grid; */
 
 }
 #ueygrcyueg>div:nth-child(2)>div:nth-child(1){
-    /* width: 10px; */
     border: 2px solid #592c2c;
 
 }
@@ -45,20 +41,16 @@
     background-color: #670b19;
 }
 #paglogopage{
-    /* margin-top: 50px; */
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
-    /* margin-left: 100px; */
     width: 1000px;
     margin: auto;
     margin-top: 10px;
-        /* border: 2px solid rgb(89, 44, 44); */
 
 }
 #paglogopage>div{
     width: 150px;
     margin-left: 50px;
-    /* border: 2px solid rgb(89, 44, 44); */
 
 }
 #paglogopage img{
@@ -87,9 +79,6 @@
     color: #000;
 }
 .ftex{
-    /* width: 100px; */
-    /* border: 2px solid red; */
-    /* margin: auto; */
     text-align: center;
     font-size: 20px;
     color: #303030;
@@ -110,7 +99,6 @@
     
 }
 #fotinp>input{
-    /* padding: 2px; */
     border: 1px solid #959595;
     width: 100%;
     padding-left: 30px;
@@ -118,7 +106,6 @@
     height: 55px;
     font-style: italic;
     outline: none;
-    /* margin-right: 0px; */
 }
 #fotinp > input+a{
     background-color: #670b19;
@@ -126,8 +113,6 @@
     padding: 20px;
     border: 1px solid #959595;
     width: 100%;
-    /* max-width: 380px; */
-    /* height: 60px; */
     font-style: italic;
     outline: none;
     margin-left: 0px;
