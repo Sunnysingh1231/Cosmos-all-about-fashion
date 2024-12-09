@@ -124,7 +124,6 @@
 }
 .belhav>a{
     height: 12px;
-    /* color: red; */
     padding: 20px;
 }
 .sarhov a{
@@ -148,7 +147,6 @@
 .sarhov img{
     width: 200%;
 
-    /* border: 2px solid red; */
 }
 .belhav:hover .sarhov{
     display: block;
@@ -205,17 +203,13 @@
     text-align: center;
     margin: auto;
     display: grid;
-    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
-
     width: 180px;
 }
 #dibagcont{
-    /* border: 2px solid red; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 1000px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    /* gap: 30px; */
     
 }
 #dibagcont>div{
@@ -241,9 +235,6 @@
     
 }
 #dibagcont button:hover{
-    /* font-size: 20px; */
-    /* display: block; */
-    /* position: absolute; */
     color: rgb(255, 255, 255);
     background-color: #670b19;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;

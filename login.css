@@ -4,22 +4,12 @@ body{
     padding: 0;
 }
 #cont{
-    /* width: 1440px; */
     width: 600px;
     height: 900px;
     margin: auto;
     display: flex;
-    /* border: 2px solid red; */
-    /* background-color: #dadada; */
+ */
 }
-/* #cont>div:nth-child(1){
-    width: 731px;
-    height: 900px;
-    background-color: #ECBC76;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 #cont>div:nth-child(2){
     background-color: rgb(234, 234, 234);
 }
@@ -115,7 +105,6 @@ button+p>span{
   justify-content: center;  
 }
 .incont>div:nth-child(1){
-    /* border: 2px solid red; */
     width: 150px;
     height: 100px;
 }
@@ -125,7 +114,6 @@ button+p>span{
 }
 #cont button a{
     color: #fff;
-    /* font-weight: bold; */
     font-size: 16px;
 }
 #cont button a:hover{
