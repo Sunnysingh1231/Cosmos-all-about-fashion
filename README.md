@@ -71,6 +71,9 @@ Welcome to **Cosmos**, a beautifully designed HTML webpage dedicated to fashion!
 ### 2. **CSS**
    - The external stylesheet (`index.css`) is used to style the webpage.
 
+### 2. **JavaScript**
+   - Script for adding interactivity.
+
 ### 3. **Font Awesome**
    - Icons are integrated using the Font Awesome library for modern and aesthetic visuals.
 
