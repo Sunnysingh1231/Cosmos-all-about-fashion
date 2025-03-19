@@ -1,6 +1,6 @@
 let mycartdarta=JSON.parse(localStorage.getItem("mycartDara"))||[]
 let Dibagcont=document.getElementById("dibagcont")
-fetch("https://6398020077359127a044cb64.mockapi.io/project")
+fetch("https://fakestoreapi.com/products")
 .then((el)=>{
     return el.json()
 })
@@ -19,15 +19,16 @@ function displaydata(data){
         let inbutt=document.createElement("div")
         let Image=document.createElement("img")
         Image.setAttribute("src",element.image)
+        Image.className="imagebox"
         let Td=document.createElement("h3")
         let Td1=document.createElement("p")
         let Td2=document.createElement("h3")
         let Td3=document.createElement("p")
         let Button=document.createElement("button")
-        Td.innerText=element.type
-        Td1.innerText="Color"+"   "+element.color
-        Td2.innerText=element.price
-        Td3.innerText=element.name
+        Td.innerText=element.category
+        Td1.innerText="Title"+"-"+element.title
+        Td2.innerText="Price - ₹ "+element.price
+        // Td3.innerText=element.description
         Button.innerText="Add to Cart"
         Button.addEventListener("click",()=>{
             mycartdarta.push(element)
