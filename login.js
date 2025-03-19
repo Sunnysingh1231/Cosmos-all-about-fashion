@@ -12,7 +12,7 @@ function displayData(data){
                 alert("login successful")
                 window.location.href="./index.html"
             }else{
-                alert("Somthing went wrong")
+                alert("Enter a valid email or password")
             }
         })
     });

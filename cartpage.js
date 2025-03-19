@@ -41,6 +41,7 @@ function displaymydata(data){
             data.splice(index,1)
             displaymydata(mycartdarta)
             localStorage.setItem("mycartDara",JSON.stringify(mycartdarta))
+            window.location.reload();
             
         })
         let nam=0

@@ -164,6 +164,7 @@
     width: 1400px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     margin: auto;
+
 }
 .ghtbad{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -238,4 +239,8 @@
     color: rgb(255, 255, 255);
     background-color: #670b19;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.imagebox{
+    border: 2px solid red;
+    height: 300px;
 }
